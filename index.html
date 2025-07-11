@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oskar Paulander – Resume</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      --accent: #1f2937;
+      --fg: #111;
+      --muted: #555;
+    }
+    body {
+      margin: 0;
+      padding: 0 1rem;
+      max-width: 900px;
+      margin-inline: auto;
+      color: var(--fg);
+      line-height: 1.5;
+    }
+    header {
+      padding-block: 1.25rem 0.5rem;
+      border-bottom: 2px solid var(--accent);
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+    }
+    .tagline {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    section {
+      margin-top: 1.75rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: 0.25rem;
+      color: var(--accent);
+    }
+    ul {
+      margin: 0.25rem 0 0 1rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem 1.25rem;
+    }
+    .job {
+      margin-bottom: 1.1rem;
+    }
+    .job-title {
+      font-weight: 600;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    @media (max-width: 600px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Keywords: C, C++, Python, TypeScript, FastAPI, React, Docker, ARM Cortex-M, RTOS, Adaptive AUTOSAR, ISO 26262, REST, GraphQL, AWS, Linux, CI/CD, Jenkins, GitHub Actions, GPT-4o, Claude 3.5, RAG, Vector DBs, Pinecone, Prompt Engineering, OpenMP, MPI, PyTorch, TensorFlow, Stripe, Scrum, Jira, Kubernetes, DevOps, STM32, CAN, IPv6, 5G, ASIC bring-up, Raman Spectroscopy, Computer Vision, CNNs, Unit Testing, TDD, DDD, Embedded Firmware, Full-Stack Engineer, AI Consultant, Remote, B2B -->
+
+  <header>
+    <h1>Oskar Paulander</h1>
+    <div class="tagline">Remote‑first Software Consultant · Embedded Systems • Full‑Stack &amp; AI Engineering • Founder</div>
+    <div class="meta">Tallflyv 11, 313 50 Åled, Sweden · (+46) 79 102 64 62 · <a href="mailto:oskar@gullbrandstorp.com">oskar@gullbrandstorp.com</a></div>
+  </header>
+
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <p>Senior engineer with 10&nbsp;+ years spanning embedded C/C++, full‑stack TypeScript/Python, and production AI. I build reliable firmware for ARM, cloud‑backed web apps, and LLM‑powered automations. Founder of two tech companies and lead on safety‑critical automotive projects (ISO&nbsp;26262, AUTOSAR). Contracting via my AB and available for remote or hybrid B2B engagements worldwide.</p>
+  </section>
+
+  <section id="competencies">
+    <h2>Core Competencies</h2>
+    <div class="two-col">
+      <ul>
+        <li>C, C++, Python, JavaScript/TypeScript</li>
+        <li>FastAPI, React, Docker, AWS</li>
+        <li>ARM Cortex‑M, RTOS, STM32</li>
+        <li>Adaptive AUTOSAR, ISO 26262</li>
+        <li>GPT‑4o, Claude 3.5, RAG, Vector DBs</li>
+        <li>CI/CD (Jenkins, GitHub Actions)</li>
+      </ul>
+      <ul>
+        <li>Prompt Engineering, PyTorch, TensorFlow</li>
+        <li>Kubernetes (basic), DevOps</li>
+        <li>CAN, IPv6, 5G radio firmware</li>
+        <li>REST, GraphQL, Stripe integrations</li>
+        <li>Unit Testing, TDD, DDD</li>
+        <li>Raman Spectroscopy, Computer Vision</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Recent Experience</h2>
+
+    <div class="job">
+      <div class="job-title">Founder &amp; Principal Consultant · Gullbrandstorp Ingenjörsbyrå AB</div>
+      <div class="meta">Mar&nbsp;2023 – Present · Remote/Sweden</div>
+      <ul>
+        <li>Migrated legacy ARM Cortex build system to CMake; cut build times 45 %.</li>
+        <li>Brought new charger hardware from schematic to REST API in 4 weeks.</li>
+        <li>Fractional CTO for early‑stage clients: architecture, CI/CD, AI road‑maps.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Solo Developer · NutriSnap (side project)</div>
+      <div class="meta">Jan 2025 – Present · Remote</div>
+      <ul>
+        <li>PWA that converts food photos to nutrition logs via GPT‑Vision, Gemini 1.5 &amp; Grok.</li>
+        <li>FastAPI backend with Stripe‑metered billing; &gt; 2 k monthly active users.</li>
+        <li>Prompt‑chaining boosted macro accuracy from 72 % ➜ 93 %.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Senior Software Engineer (Contract) · Polestar AB</div>
+      <div class="meta">Mar 2023 – Dec 2024 · Gothenburg/Hybrid</div>
+      <ul>
+        <li>Led integration pipeline for new EV battery control features.</li>
+        <li>Coordinated DevOps across 3 teams; reduced defect escape rate below 0.2 %.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Creator · MancerAI (in‑house)</div>
+      <div class="meta">Feb 2024 – Present</div>
+      <ul>
+        <li>Autonomous LLM agents generating Jira tasks &amp; READMEs (Python + FastAPI).</li>
+        <li>Runs on Greptile graph search + Claude 3.5; cuts sprint planning 60 %.</li>
+      </ul>
+    </div>
+
+    <p><em>Earlier roles: Vector GmbH (Scrum Master &amp; Developer, Adaptive AUTOSAR), Ericsson AB (5G microwave radios), Gemalto AB (secure smartcard GUI), Tele‑Radio AB (industrial remote controls). Full details available on request.</em></p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>M.Sc. Applied Physics</strong>, Chalmers University of Technology, 2015</li>
+      <li><strong>B.Sc. Engineering Physics</strong>, Chalmers University of Technology, 2013</li>
+      <li>Master’s thesis: <em>Total Light Annihilation for SERS</em> (plasmonic nanostructures)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+    <ul>
+      <li><strong>Raylyze</strong> – Hand‑held Raman spectrometer; cut BoM 30 % via CNN analysis.</li>
+      <li><strong>Smartnoise</strong> – iOS + web app enhancing ADHD cognition through auditory SR.</li>
+      <li><strong>Forum Admin</strong> – Scaled onboarding for 3 k StarCraft players in community &gt; 2 M users.</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications &amp; Activities</h2>
+    <ul>
+      <li>Co‑author, <em>Frontiers in Human Neuroscience</em> – stochastic resonance for ADHD.</li>
+      <li>Swedish junior chess – 1900 ELO equivalent.</li>
+    </ul>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>Swedish (native)</li>
+      <li>English (fluent)</li>
+    </ul>
+  </section>
+
+</body>
+</html>
