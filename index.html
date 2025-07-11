@@ -73,7 +73,7 @@
   </style>
 </head>
 <body>
-  <!-- Keywords: C, C++, Python, TypeScript, FastAPI, React, Docker, ARM Cortex-M, RTOS, Adaptive AUTOSAR, ISO 26262, REST, GraphQL, AWS, Linux, CI/CD, Jenkins, GitHub Actions, GPT-4o, Claude 3.5, RAG, Vector DBs, Pinecone, Prompt Engineering, OpenMP, MPI, PyTorch, TensorFlow, Stripe, Scrum, Jira, Kubernetes, DevOps, STM32, CAN, IPv6, 5G, ASIC bring-up, Raman Spectroscopy, Computer Vision, CNNs, Unit Testing, TDD, DDD, Embedded Firmware, Full-Stack Engineer, AI Consultant, Remote, B2B -->
+  <!-- Keywords: C, C++, Python, TypeScript, FastAPI, React, Docker, ARM Cortex-M, RTOS, SPI, I2C, Keil, IAR, Adaptive AUTOSAR, ISO 26262, BLE, LTE, Low-power design, REST, AWS, Linux, CI/CD, Jenkins, GitHub Actions, GPT-4o, Claude 3.5, RAG, Vector DBs, Pinecone, Prompt Engineering, OpenMP, MPI, PyTorch, TensorFlow, Transformers, Stripe, Scrum, Jira, DevOps, STM32, CAN, IPv6, 5G, ASIC bring-up, Raman Spectroscopy, Computer Vision, CNNs, Unit Testing, TDD, DDD, Embedded Firmware, AI Consultant, Remote, B2B -->
 
   <header>
     <h1>Oskar Paulander</h1>
@@ -92,16 +92,16 @@
       <ul>
         <li>C, C++, Python, JavaScript/TypeScript</li>
         <li>FastAPI, React, Docker, AWS</li>
-        <li>ARM Cortex-M, RTOS, STM32</li>
+        <li>ARM Cortex-M, RTOS, STM32, SPI/I²C</li>
         <li>Adaptive AUTOSAR, ISO 26262</li>
         <li>GPT-4o, Claude 3.5, RAG, Vector DBs</li>
         <li>CI/CD (Jenkins, GitHub Actions)</li>
       </ul>
       <ul>
-        <li>Prompt Engineering, PyTorch, TensorFlow</li>
-        <li>Kubernetes (basic), DevOps</li>
-        <li>CAN, IPv6, 5G radio firmware</li>
-        <li>REST, GraphQL, Stripe integrations</li>
+        <li>Prompt Engineering, PyTorch, TensorFlow, Transformers</li>
+        <li>CAN, BLE, LTE, Low‑power design</li>
+        <li>Keil, IAR, DevOps tooling</li>
+        <li>REST APIs, GraphQL, Stripe integrations</li>
         <li>Unit Testing, TDD, DDD</li>
         <li>Raman Spectroscopy, Computer Vision</li>
       </ul>
@@ -116,7 +116,7 @@
       <div class="meta">Mar&nbsp;2023 – Present · Remote/Sweden</div>
       <ul>
         <li>Migrated legacy ARM Cortex build system to CMake; cut build times 45 %.</li>
-        <li>Brought new charger hardware from schematic to REST API in 8 weeks.</li>
+        <li>Brought new charger hardware from schematic to REST API in 8 weeks, including SPI/I²C bring‑up and BLE telemetry.</li>
         <li>Fractional CTO for early-stage clients: architecture, CI/CD, AI road‑maps.</li>
       </ul>
     </div>
@@ -125,9 +125,9 @@
       <div class="job-title">Solo Developer · NutriSnap (side project)</div>
       <div class="meta">Jan 2025 – Present · Remote</div>
       <ul>
-        <li>PWA that converts food photos to nutrition logs via GPT-Vision, Gemini 1.5 &amp; Grok.</li>
-        <li>FastAPI backend with Stripe-metered billing; &gt; 2 k monthly active users.</li>
-        <li>Prompt-chaining boosted macro accuracy from 72 % ➜ 93 %.</li>
+        <li>PWA that converts food photos to nutrition logs via GPT‑Vision, Gemini 1.5 &amp; Grok.</li>
+        <li>FastAPI backend with Stripe‑metered billing; &gt; 2 k monthly active users.</li>
+        <li>Prompt‑chaining boosted macro accuracy from 72 % ➜ 93 %.</li>
       </ul>
     </div>
 
@@ -137,20 +137,20 @@
       <ul>
         <li>Led integration pipeline for new EV battery control features.</li>
         <li>Single‑handedly implemented Battery Switch functionality in a skunkworks project (C++).</li>
-        <li>Coordinated DevOps across 3 teams; reduced defect escape rate below 0.2 %.</li>
+        <li>Coordinated DevOps across 3 teams; reduced defect escape rate below 0.2 %.</li>
       </ul>
     </div>
 
     <div class="job">
-      <div class="job-title">Creator · MancerAI (in-house)</div>
-      <div class="meta">Feb 2024 – Present</div>
+      <div class="job-title">Creator · MancerAI (in‑house)</div>
+      <div class="meta">Feb 2024 – Present</div>
       <ul>
-        <li>Model‑agnostic autonomous LLM agents generating Jira tasks &amp; READMEs (Python + FastAPI).</li>
-        <li>Runs on Greptile graph search + Claude 3.5; cuts sprint planning and administrative tasks 60 %.</li>
+        <li>Model‑agnostic autonomous LLM agents (Transformers/PyTorch) generate Jira tasks &amp; READMEs (Python + FastAPI).</li>
+        <li>Runs on Greptile graph search + Claude 3.5; cuts sprint planning and administrative tasks 60 %.</li>
       </ul>
     </div>
 
-    <p><em>Earlier roles: Vector GmbH (Scrum Master &amp; Developer, Adaptive AUTOSAR), Ericsson AB (5G microwave radios), Gemalto AB (2FA hardware token – QR‑code image processing &amp; smart‑card reader, PC simulation GUI), Tele‑Radio AB (industrial remote controls). Full details available on request</em></p>
+    <p><em>Earlier roles: Vector GmbH (Scrum Master &amp; Developer, Adaptive AUTOSAR), Ericsson AB (5G microwave radios), Gemalto AB (2FA hardware token – QR‑code image processing &amp; smart‑card reader, PC simulation GUI), Tele‑Radio AB (industrial remote controls). Full details available on request.</em></p>
   </section>
 
   <section id="education">
@@ -165,17 +165,17 @@
   <section id="projects">
     <h2>Selected Projects</h2>
     <ul>
-      <li><strong>Raylyze</strong> – Hand-held Raman spectrometer; cut BoM 30 % via CNN analysis.</li>
+      <li><strong>Raylyze</strong> – Hand‑held Raman spectrometer; cut BoM 30 % via CNN analysis.</li>
       <li><strong>Smartnoise</strong> – iOS + web app enhancing ADHD cognition through auditory SR.</li>
-      <li><strong>Forum Admin</strong> – Scaled onboarding for 3 k StarCraft players in community &gt; 2 M users.</li>
+      <li><strong>Forum Admin</strong> – Scaled onboarding for 3 k StarCraft players in community &gt; 2 M users.</li>
     </ul>
   </section>
 
   <section id="publications">
     <h2>Publications &amp; Activities</h2>
     <ul>
-      <li>Co-author, <em>Frontiers in Human Neuroscience</em> – stochastic resonance for ADHD.</li>
-      <li>Swedish junior chess – 1900 ELO equivalent.</li>
+      <li>Co‑author, <em>Frontiers in Human Neuroscience</em> – stochastic resonance for ADHD.</li>
+      <li>Swedish junior chess – 1900 ELO equivalent.</li>
     </ul>
   </section>
 
